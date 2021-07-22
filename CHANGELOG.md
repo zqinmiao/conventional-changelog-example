@@ -1,3 +1,12 @@
+## [1.0.11](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.10...v1.0.11) (2021-07-22)
+
+
+### 🎸 Features
+
+* 增加changelog-context.json ([740e10e](https://github.com/zqinmiao/conventional-changelog-example/commit/740e10e0bc6dd4eedd47391a0689a06eb9b6805c))
+
+
+
 ## [1.0.10](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.9...v1.0.10) (2021-07-22)
 
 

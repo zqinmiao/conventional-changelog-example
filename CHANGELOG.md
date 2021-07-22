@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.3...v1.0.4) (2021-07-22)
+
+
+### Features
+
+* 更新README.md ([f172e14](https://github.com/zqinmiao/conventional-changelog-example/commit/f172e1445a1cfbde13f9903d06b87822bd02610d))
+
+
+
 ## [1.0.3](/compare/v1.0.2...v1.0.3) (2021-07-22)
 
 

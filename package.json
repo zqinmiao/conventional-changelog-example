@@ -10,7 +10,6 @@
   "keywords": [
     "conventional-changelog"
   ],
-  "homepage": "https://github.com/zqinmiao/conventional-changelog-example",
   "author": "reahink",
   "license": "ISC",
   "devDependencies": {

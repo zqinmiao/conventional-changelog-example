@@ -1,3 +1,12 @@
+## [1.0.9](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.8...v1.0.9) (2021-07-22)
+
+
+### 🎸 Features
+
+* 测测changelog-config.js中增加options.header是否可行 ([bdbeb74](https://github.com/zqinmiao/conventional-changelog-example/commit/bdbeb748fde1e6032f4546625ac6b9919253be65))
+
+
+
 ## [1.0.8](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.7...v1.0.8) (2021-07-22)
 
 

@@ -1,7 +1,8 @@
 module.exports = {
-  header: "Changelog",
+  header: "# Changelog",
+  releaseCommitMessageFormat: "chore(release): v{{currentTag}} :tada:",
   types: [
-    { type: "feat", section: "Features" },
+    { type: "feat", section: "🎸 Features" },
     { type: "feature", section: "Features" },
     { type: "fix", section: "Bug Fixes" },
     { type: "perf", section: "Performance Improvements" },

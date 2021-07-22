@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.5...v1.0.6) (2021-07-22)
+
+
+### 🎸 Features
+
+* 测测changelog自定义配置 ([754b807](https://github.com/zqinmiao/conventional-changelog-example/commit/754b807ffc5d931de409414967ac4bb264be7661))
+
+
+
 ## [1.0.5](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.4...v1.0.5) (2021-07-22)
 
 

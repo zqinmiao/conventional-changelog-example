@@ -1,4 +1,7 @@
 module.exports = {
+  options: {
+    header: "Change Log",
+  },
   writerOpts: {
     transform: (commit, context) => {
       let discard = true;

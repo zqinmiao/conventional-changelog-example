@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-example",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "conventional-changelog 生态探索",
   "main": "index.js",
   "scripts": {

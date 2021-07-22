@@ -1,4 +1,11 @@
-Changelog
+# Changelog
+## [1.1.0](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.13...v1.1.0) (2021-07-22)
+
+
+### 🎸 Features
+
+* 测测 releaseCommitMessageFormat 和 自定义type ([dbbe91d](https://github.com/zqinmiao/conventional-changelog-example/commit/dbbe91d85c7732ec56bf66f7bfc3705e5fcfd190))
+
 ### [1.0.13](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.12...v1.0.13) (2021-07-22)
 
 

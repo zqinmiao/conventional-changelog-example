@@ -1,4 +1,5 @@
 module.exports = {
+  // types 并不能生效
   types: [
     { type: "feat", section: "Features" },
     { type: "feature", section: "Features" },

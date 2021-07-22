@@ -1,3 +1,7 @@
+## [1.0.12](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.11...v1.0.12) (2021-07-22)
+
+
+
 ## [1.0.11](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.10...v1.0.11) (2021-07-22)
 
 

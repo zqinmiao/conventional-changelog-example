@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.6...v1.0.7) (2021-07-22)
+
+
+### 🎸 Features
+
+* 试试增加一级标题Change Log ([4e74bef](https://github.com/zqinmiao/conventional-changelog-example/commit/4e74bef21acc2e799f0a869239ca0126c432f601))
+
+
+
 # Change Log
 
 ## [1.0.6](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.5...v1.0.6) (2021-07-22)

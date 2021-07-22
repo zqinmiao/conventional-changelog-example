@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.4...v1.0.5) (2021-07-22)
+
+
+### Features
+
+* 测测package.json中homepage没有的情况 ([bd42d0a](https://github.com/zqinmiao/conventional-changelog-example/commit/bd42d0a5d4c9160ae8d338ac5f627d6150aba3e1))
+
+
+
 ## [1.0.4](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.3...v1.0.4) (2021-07-22)
 
 

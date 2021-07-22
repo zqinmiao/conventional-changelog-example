@@ -1,3 +1,11 @@
+Changelog
+### [1.0.13](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.12...v1.0.13) (2021-07-22)
+
+
+### Documentation
+
+* 增加.versionrc.js ([e86b896](https://github.com/zqinmiao/conventional-changelog-example/commit/e86b896c3fce69708e764e906174c288a6ed6dc8))
+
 ## [1.0.12](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.11...v1.0.12) (2021-07-22)
 
 

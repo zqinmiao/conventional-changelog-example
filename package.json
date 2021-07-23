@@ -4,7 +4,8 @@
   "description": "conventional-changelog 生态探索",
   "main": "index.js",
   "scripts": {
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "release": "standard-version"
   },
   "keywords": [
     "conventional-changelog"
@@ -12,6 +13,7 @@
   "author": "reahink",
   "license": "ISC",
   "devDependencies": {
-    "conventional-changelog-cli": "^2.1.1"
+    "conventional-changelog-cli": "^2.1.1",
+    "standard-version": "^9.3.1"
   }
 }

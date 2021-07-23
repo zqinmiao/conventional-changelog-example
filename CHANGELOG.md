@@ -1,10 +1,11 @@
-## <small>1.1.1 (2021-07-23)</small>
-
-* feat: 测测单纯的使用这段命令：conventional-changelog -i CHANGELOG.md -s ([165a72c](https://github.com/zqinmiao/conventional-changelog-example/commit/165a72c))
-
-
-
 # Changelog
+## [1.2.0](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.1.1...v1.2.0) (2021-07-23)
+
+
+### 🎸 Features
+
+* 把standard-version装到仓库中 ([29fc45a](https://github.com/zqinmiao/conventional-changelog-example/commit/29fc45a05816b68085dfa6e34ba5fdae91a108b1))
+
 ## [1.1.0](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.13...v1.1.0) (2021-07-22)
 
 

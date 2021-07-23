@@ -1,3 +1,9 @@
+## <small>1.1.1 (2021-07-23)</small>
+
+* feat: 测测单纯的使用这段命令：conventional-changelog -i CHANGELOG.md -s ([165a72c](https://github.com/zqinmiao/conventional-changelog-example/commit/165a72c))
+
+
+
 # Changelog
 ## [1.1.0](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.13...v1.1.0) (2021-07-22)
 

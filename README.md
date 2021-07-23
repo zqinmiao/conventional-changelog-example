@@ -76,3 +76,5 @@ $ conventional-changelog -c './changelog-context.json' -i CHANGELOG.md -s
 ## [1.1.0](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.13...v1.1.0) (2021-07-22)
 
 ```
+
+再重新执行`standard-version`， 会重新格式化`CHANGELOG.md`，`# Changelog` 会重新回到顶部，且文档中只有它一个

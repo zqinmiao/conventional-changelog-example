@@ -1,0 +1,4 @@
+jobs:
+  include:
+    env:
+      - GITHUB_TOKEN=${{secrets.GITHUBTOKEN}},

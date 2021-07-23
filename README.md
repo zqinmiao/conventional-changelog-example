@@ -108,3 +108,36 @@ npx semantic-release-cli setup
 See the [semantic-release-cli](https://github.com/semantic-release/cli#what-it-does) documentation for more details.
 
 **Note**: only a limited number of options, CI services and plugins are currently supported by `semantic-release-cli`.
+
+### 一些问题记录
+
+1. `.releaserc.js` 中设置的`branches`的分支，要已经存在于 git 远程仓库中，不然会报以下错误：
+
+```
+[11:21:49] [semantic-release] › ✖  ERELEASEBRANCHES The release branches are invalid in the `branches` configuration.
+A minimum of 1 and a maximum of 3 release branches are required in the branches configuration (https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches).
+
+This may occur if your repository does not have a release branch, such as master.
+
+Your configuration for the problematic branches is [].
+
+AggregateError:
+    SemanticReleaseError: The release branches are invalid in the `branches` configuration.
+```
+
+1. 因缺少 `GH_TOKEN` 或者 `GITHUB_TOKEN` 导致的：Failed step "verifyConditions" of plugin "@semantic-release/github"
+
+```
+[11:44:06] [semantic-release] › ✖  Failed step "verifyConditions" of plugin "@semantic-release/github"
+[11:44:06] [semantic-release] › ⚠  Skip step "fail" of plugin "@semantic-release/github" in dry-run mode
+[11:44:06] [semantic-release] › ✖  ENOGHTOKEN No GitHub token specified.
+A GitHub personal token (https://github.com/semantic-release/github/blob/master/README.md#github-authentication) must be created and set in the GH_TOKEN or GITHUB_TOKEN environment variable on your CI environment.
+
+Please make sure to create a GitHub personal token (https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line) and to set it in the GH_TOKEN or GITHUB_TOKEN environment variable on your CI environment. The token must allow to push to the repository zqinmiao/conventional-changelog-example.
+```
+
+- 配置环境变量，[ci-configuration](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#ci-configuration)
+
+环境变量只能在 CI 环境中配。
+
+- 设置「personal access token」，[Github Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)

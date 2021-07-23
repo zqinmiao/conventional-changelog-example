@@ -1,5 +1,19 @@
 # conventional-changelog-example
 
+[Conventional Changelog 生态探索](https://github.com/zqinmiao/blog/issues/12)
+
+相关用法
+
+```json
+{
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "release": "standard-version",
+    "sr": "semantic-release"
+  }
+}
+```
+
 ## 本地仓库连接远程仓库
 
 ```
@@ -8,7 +22,7 @@ $ git remote add origin git@github.com:zqinmiao/conventional-changelog-example.g
 
 ## 手动增加的一级标题 Change Log
 
-更新的 CHANGLOG.md 内容会加到一级标题之上，如下：
+执行`conventional-changelog`后更新的 CHANGLOG.md 内容会加到一级标题之上，如下：
 
 ```
 ## [1.0.7](https://github.com/zqinmiao/conventional-changelog-example/compare/v1.0.6...v1.0.7) (2021-07-22)

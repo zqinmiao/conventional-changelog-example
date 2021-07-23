@@ -23,4 +23,8 @@ module.exports = {
     { type: "build", section: "Build System", hidden: true },
     { type: "ci", section: "Continuous Integration", hidden: true },
   ],
+  // scripts: {
+  //   postchangelog: "xxx",
+  //   precommit: "git add .",
+  // },
 };

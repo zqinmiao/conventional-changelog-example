@@ -1,10 +1,10 @@
 {
   "name": "conventional-changelog-example",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "conventional-changelog 生态探索",
   "main": "index.js",
   "scripts": {
-    "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
     "conventional-changelog"

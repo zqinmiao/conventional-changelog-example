@@ -1,18 +1,24 @@
 {
   "name": "conventional-changelog-example",
-  "version": "1.0.5",
+  "version": "1.2.1",
   "description": "conventional-changelog 生态探索",
   "main": "index.js",
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "postversion": "git push && git push origin --tags"
+    "release": "standard-version",
+    "sr": "semantic-release"
   },
   "keywords": [
     "conventional-changelog"
   ],
   "author": "reahink",
   "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.1.1"
+    "conventional-changelog-cli": "^2.1.1",
+    "semantic-release": "^17.4.4",
+    "standard-version": "^9.3.1"
   }
 }

@@ -19,3 +19,45 @@ $ git remote add origin git@github.com:zqinmiao/conventional-changelog-example.g
 
 # Change Log
 ```
+
+lerna 之所以可以增加，是因为自己处理了`CHANGLOG.md`，[代码](https://github.com/lerna/lerna/blob/main/core/conventional-commits/lib/update-changelog.js#L71)如下：
+
+```js
+//...,
+log.silly(type, "writing new entry: %j", newEntry);
+
+const content = [CHANGELOG_HEADER, newEntry, changelogContents].join(
+  BLANK_LINE
+);
+
+return fs.writeFile(changelogFileLoc, content.trim() + EOL).then(() => {
+  log.verbose(type, "wrote", changelogFileLoc);
+
+  return {
+    logPath: changelogFileLoc,
+    newEntry,
+  };
+});
+```
+
+如果使用[standard-version](https://github.com/conventional-changelog/standard-version) ,则自定义配置的事情就变得简单了
+
+## changelog-config.js
+
+可以重写`CHANGELOG.md`
+
+用法如下:
+
+```
+$ conventional-changelog -n './changelog-config.js' -i CHANGELOG.md -s
+```
+
+## changelog-context.json
+
+可以定义模板模板中的变量。如[conventional-changelog-writer](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-writer) 中的 [commit.hbs](https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-writer/templates/commit.hbs)模板（看文档是这样说，但还未验证）。
+
+用法如下:
+
+```
+$ conventional-changelog -c './changelog-context.json' -i CHANGELOG.md -s
+```

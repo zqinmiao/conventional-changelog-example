@@ -5,15 +5,20 @@
   "main": "index.js",
   "scripts": {
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "release": "standard-version"
+    "release": "standard-version",
+    "sr": "semantic-release"
   },
   "keywords": [
     "conventional-changelog"
   ],
   "author": "reahink",
   "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1",
+    "semantic-release": "^17.4.4",
     "standard-version": "^9.3.1"
   }
 }

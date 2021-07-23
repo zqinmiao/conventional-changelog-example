@@ -78,3 +78,33 @@ $ conventional-changelog -c './changelog-context.json' -i CHANGELOG.md -s
 ```
 
 再重新执行`standard-version`， 会重新格式化`CHANGELOG.md`，`# Changelog` 会重新回到顶部，且文档中只有它一个
+
+## [semantic-release](https://github.com/semantic-release/semantic-release)
+
+> semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
+
+> This removes the immediate connection between human emotions and version numbers, strictly following the [Semantic Versioning](http://semver.org/) specification.
+
+`semantic-release`使整个包发布工作流程自动化，包括：确定下一个版本号、生成发行说明和发布包。
+
+### [Getting started](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started)
+
+In order to use **semantic-release** you must follow these steps（为了使用**semantic-release**，您必须遵循以下步骤）:
+
+1. [Install](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/installation.md#installation) **semantic-release** in your project
+2. Configure your Continuous Integration service to [run **semantic-release**](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#run-semantic-release-only-after-all-tests-succeeded)
+3. Configure your Git repository and package manager repository [authentication](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#authentication) in your Continuous Integration service
+4. Configure **semantic-release** [options and plugins](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration)
+
+Alternatively those steps can be easily done with the [**semantic-release** interactive CLI](https://github.com/semantic-release/cli)（或者，可以使用 semantic-release 交互式 CLI 轻松完成这些步骤：）:
+
+```bash
+cd your-module
+npx semantic-release-cli setup
+```
+
+![dialogue](https://github.com/semantic-release/semantic-release/blob/master/media/semantic-release-cli.png?raw=true)
+
+See the [semantic-release-cli](https://github.com/semantic-release/cli#what-it-does) documentation for more details.
+
+**Note**: only a limited number of options, CI services and plugins are currently supported by `semantic-release-cli`.

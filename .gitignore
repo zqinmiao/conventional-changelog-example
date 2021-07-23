@@ -50,3 +50,5 @@ bower_components
 *.njsproj
 *.sln
 *.sw*
+
+package-lock.json

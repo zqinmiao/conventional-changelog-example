@@ -1,8 +1,10 @@
 # conventional-changelog-example
 
-[Conventional Changelog 生态探索](https://github.com/zqinmiao/blog/issues/12)
+Conventional Changelog 生态探索实践示例仓库
 
-相关用法
+[Conventional Changelog 生态探索](./docs/conventional-changelog.md)
+
+相关`scripts`:
 
 ```json
 {
@@ -125,7 +127,7 @@ See the [semantic-release-cli](https://github.com/semantic-release/cli#what-it-d
 
 ### 一些问题记录
 
-1. `.releaserc.js` 中设置的`branches`的分支，要已经存在于 git 远程仓库中，不然会报以下错误：
+#### 1. `.releaserc.js` 中设置的`branches`的分支，要已经存在于 git 远程仓库中，不然会报以下错误：
 
 ```
 [11:21:49] [semantic-release] › ✖  ERELEASEBRANCHES The release branches are invalid in the `branches` configuration.
@@ -139,7 +141,7 @@ AggregateError:
     SemanticReleaseError: The release branches are invalid in the `branches` configuration.
 ```
 
-1. 因缺少 `GH_TOKEN` 或者 `GITHUB_TOKEN` 导致的：Failed step "verifyConditions" of plugin "@semantic-release/github"
+### 2. 因缺少 `GH_TOKEN` 或者 `GITHUB_TOKEN` 导致的：Failed step "verifyConditions" of plugin "@semantic-release/github"
 
 ```
 [11:44:06] [semantic-release] › ✖  Failed step "verifyConditions" of plugin "@semantic-release/github"
